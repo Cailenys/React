@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Button, Icon } from 'semantic-ui-react'
-
+import { Link, Menu, Item } from 'react-router-dom'
 function App() {
   return (
     <div className="App">
