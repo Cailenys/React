@@ -1,10 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Button, Icon } from 'semantic-ui-react'
-import { Link, Menu, Item } from 'react-router-dom'
+import { Button, Icon, Menu } from 'semantic-ui-react'
+import { Link, BrowserRouter } from 'react-router-dom'
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
       <header className="App-header">
        <Menu>
@@ -32,6 +33,7 @@ function App() {
         </Button>
       </header>
     </div>
+    </BrowserRouter>
   );
 }
 
